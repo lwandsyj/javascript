@@ -11,15 +11,21 @@
 3.使用：
   Storage 可以看成一个特殊的对象，他是以key/value 形式存储的。
   （1）取值：
+  
         Storage.getItem(key)
         Storage.key
   （2）赋值：
+  
         Storage.key=value;
         Storage.setItem(key,value)
   (3) 移除
+  
         Storage.removeItem(key)
         delete Storage.key
   (4) length 获取长度
+  
         Storage.length
  （5）clear():清空
+ 
         Storage.clear()
+        
